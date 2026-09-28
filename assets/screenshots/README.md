@@ -1,21 +1,21 @@
-# Screenshot Upload Guide
+# Product Screenshots
 
-请将脱敏后的展示图片放在本目录，推荐使用以下名称：
+本目录保存 LongTV 展示仓库使用的脱敏产品截图：
 
-1. `01-cover.webp`：项目首页或完整画布；
-2. `02-clarification.webp`：Agent 需求澄清；
-3. `03-plan-confirmation.webp`：多步骤计划与确认；
-4. `04-canvas-workflow.webp`：图片/视频工作流；
-5. `05-generation-result.webp`：多模态生成结果；
-6. `06-job-queue.webp`：任务队列、重试或恢复；
-7. `07-operations.webp`：健康状态或运维页面。
+1. `01-agent-overview.png`：Agent 与完整多模态画布；
+2. `02-image-node.png`：图片生成与编辑节点；
+3. `03-video-node.png`：视频生成节点；
+4. `04-audio-node.png`：音频生成节点；
+5. `05-director-console.png`：3D 导演台；
+6. `06-animation-timeline.png`：动画时间轴与运镜轨迹；
+7. `07-audio-studio.png`：音乐创作工作台。
 
 上传前检查并隐藏：API Key、Token、Cookie、邮箱、服务器 IP、用户 ID、项目 ID、
 供应商余额、OSS 地址、真实人物和其他不适合公开的数据。建议图片宽度控制在 1600px 左右，
 转换为 WebP，并添加低透明度的 `LongTV Demo` 水印。
 
-上传完成后，编辑根目录 `README.md`，按下面格式插入图片：
+新增截图后，在根目录 `README.md` 中按下面格式引用：
 
 ```markdown
-![Agent 需求澄清](assets/screenshots/02-clarification.webp)
+![截图说明](assets/screenshots/example.png)
 ```
