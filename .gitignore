@@ -1,0 +1,37 @@
+# Showcase repository allowlist: ignore everything unless explicitly allowed.
+*
+
+!.gitignore
+!README.md
+!NOTICE.md
+!.nojekyll
+
+!assets/
+!assets/**
+
+!docs/
+!docs/**
+
+# Never commit common secrets or source artifacts, even under allowed folders.
+**/.env
+**/.env.*
+**/*secret*
+**/*credential*
+**/*api_key*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.sql
+**/*.sqlite*
+**/*.log
+**/*.py
+**/*.pyc
+**/*.js
+**/*.jsx
+**/*.ts
+**/*.tsx
+**/*.map
+**/*.zip
+**/*.tar
+**/*.gz
